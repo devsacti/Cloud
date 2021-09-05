@@ -10,13 +10,14 @@ I think these consist of components selected by veteran developers because of it
 
 I want to utilize their experience and conclusion to develop app.
 
-# Clouds
-## SaaS 
+# Utilization cases
+## SaaS-oriented 
 [CRM(salesforce)](https://github.com/devsacti/CRM)
-
+ 
 ## PaaS
 
-## IaaS
+## IaaS-Oriented
+[DEVOPS](https://github.com/devsacti/Cloud-Utilizations/tree/main/DEVOPS)
 
 # Docker and Kubernetes
 to be continued..
