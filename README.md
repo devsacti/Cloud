@@ -13,15 +13,14 @@ I conclude that i should concentrated on 'cloud utilizations' especially with Sa
 cuz,I think, these consist of components selected by prior developers because of its benefits. I want to utilize their experience and conclusion to develop app.
 
 # Utilization cases
-## basic of OS
-[OS with Linux](https://github.com/devsacti/OperatingSystem)
-
 ## SaaS-oriented 
 [CRM(salesforce)](https://github.com/devsacti/CRM)
  
 ## PaaS-Oriented
 
 ## IaaS-Oriented
+[basic OS with Linux](https://github.com/devsacti/OperatingSystem)
+
 [DEVOPS](https://github.com/devsacti/Cloud-Utilizations/tree/main/DEVOPS)
 
 # Docker and Kubernetes
