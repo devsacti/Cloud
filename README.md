@@ -15,7 +15,7 @@ to be continued..
 
 # Utilization cases
 ## IaaS-Oriented
-(Deploy of WEB-APP Prjs) +
+(Deploy of WEB-APP Impl Prjs) +
 
 [DEVOPS](https://github.com/devsacti/Cloud-Utilizations/tree/main/DEVOPS)
 
