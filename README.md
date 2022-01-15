@@ -1,17 +1,19 @@
 # Cloud-Utilizations
-(To Me) Utilize Cloud for Applications
+(To Me) Utilizing AWS Cloud server instance for Applications
 
 ## How to Access Server
-(default : AWS console)
 
-### Server instance
-to be continued..
+### renting AWS Server instance
+to be supplemented later
 
-### Web Application Firewall, WAF
-to be continued..
+### config Web Application Firewall, WAF
+to be supplemented later
 
-### shell to server, FTP and Git
-to be continued..
+### shell to server
+to be supplemented later
+
+#### FTP, Git
+to be supplemented later
 
 # Utilization cases
 ## IaaS-Oriented
@@ -20,10 +22,14 @@ to be continued..
 [DEVOPS](https://github.com/devsacti/Cloud-Utilizations/tree/main/DEVOPS)
 
 ## PaaS-Oriented
-to be continued..
+AWS RDS
++
+to be supplemented later
 
 ## SaaS-oriented 
-to be continued..
+salesforce,
++
+to be supplemented later
 
 # Docker and Kubernetes
-to be continued..
+to be supplemented later
