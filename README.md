@@ -10,12 +10,16 @@ After I sign up, and AWS confirmed that I have valid bank account,
 * 위 링크의 putty 설치없이, 윈도우 기본 powershell로도 접근 가능, 하단 목차 확인
 
 #### Access by powershell
-powershell : Window 기본 터미널로 GUI의 대척점, ssh, scp(sftp 유사) 명령어 및 기능이 기본 지원되어 서버접근이 가능하다. + cmd보다 눈이 편하다.
+powershell : Window 제공 Character User Interface 터미널(GUI의 대척점), ssh, scp(sftp 유사) 명령어 및 기능이 기본 지원되어 서버접근이 가능하다.
+
++ cmd.exe보다 눈이 편하다.
 
 [Accessing by powershell ssh](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)
 
 ### Firewall and Security Group of AWS
 Firewall : 웹 방화벽
+(To ME) 외부 ip에서 접근할 수 있는 포트 열기
+
 
 to be supplemented later
 
