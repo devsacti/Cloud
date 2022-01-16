@@ -32,10 +32,10 @@ powershell : Window 제공 Character User Interface 터미널(GUI의 대척점),
 80 : http , 443 : https, 22 : ssh
 
 ### Continuous Integration and Continuous Delivery(CI/CD)
-(To ME)the sustainable and accessible platform where multiple developers can collarborate conveniently
+(To ME) the sustainable and accessible platform where multiple developers can collarborate conveniently
 
 #### Git and Github
-(To ME)Implementation of CI/CD
+(To ME) Implementation of CI/CD
 
 (ex)
 
@@ -78,17 +78,19 @@ salesforce CRM,
 +
 to be supplemented later
 
-# Docker and Kubernetes
-to be supplemented later
 
 ##### the related
- File Transfer Protocol(FTP), FTP is protocol(or guideline) to support sending file
+- File Transfer Protocol(FTP), FTP is protocol(or guideline) to support sending file
 
 Implementation method of FTP : [how to use Filezilla](https://luji.tistory.com/9)
 
 [SCP vs SFTP](https://parkadd.tistory.com/129)
 
 To be supplemented later.. 
+
+- Docker and Kubernetes
+
+to be supplemented later
 
 # Background
 [Server](https://github.com/devsacti/Server)
