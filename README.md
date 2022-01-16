@@ -78,6 +78,8 @@ salesforce CRM,
 +
 to be supplemented later
 
+# Background
+[Server](https://github.com/devsacti/Server)
 
 ##### the related
 - File Transfer Protocol(FTP), FTP is protocol(or guideline) to support sending file
@@ -91,6 +93,3 @@ To be supplemented later..
 - Docker and Kubernetes
 
 to be supplemented later
-
-# Background
-[Server](https://github.com/devsacti/Server)
