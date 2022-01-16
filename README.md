@@ -6,7 +6,7 @@
 ### renting AWS Server instance and Access
 After I sign up, and AWS confirmed that I have valid bank account,
 
-[Making AWS EC2 freetier instance](https://taetaetae.github.io/2019/04/14/aws-freetier-create-and-ssh-access/)
+[Making AWS EC2 free-tier instance](https://taetaetae.github.io/2019/04/14/aws-freetier-create-and-ssh-access/)
 * 위 링크의 putty 설치없이, 윈도우 기본 powershell로도 접근 가능, 하단 목차 확인
 
 #### Access by powershell
@@ -24,7 +24,9 @@ powershell : Window 제공 Character User Interface 터미널(GUI의 대척점),
 * 22번 포트는, i think, 관리자의 서버 접근을 위해 기본적으로 열려있고, ssh 접속은 이 통로로 서버에 접근하는 것으로 이해
 
 #### Security Group of AWS
-to be supplemented later
+(To ME) AWS EC2 방화벽 설정을 지원해주는 AWS 서비스
+
+* [참고링크](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=jwyoon25&logNo=221498209697)
 
 #### FTP, Git
 to be supplemented later
@@ -41,9 +43,12 @@ AWS RDS
 to be supplemented later
 
 ## SaaS-oriented 
-salesforce,
+salesforce CRM,
 +
 to be supplemented later
 
 # Docker and Kubernetes
 to be supplemented later
+
+# Background
+[Server](https://github.com/devsacti/Server)
