@@ -44,6 +44,11 @@ powershell : Window 제공 Character User Interface 터미널(GUI의 대척점),
 
 * Caution! Based on 2022, github password is Security Token of Repo, not password of github account
 
+2. config AWS Linux 2 Server to pull from above repository of github
+[config AWS from jdk to git](https://tigger.dev/entry/aws-git)
+
+* jdk has JRE that can make JAVA-APP work, with Git, it is component of CD
+
 ##### steps of Git bash in Window VS its of STS
 ' git add . ' -> ' git commit -m "~" ' -> ' git push origin main ' in Git Bash
 
@@ -56,11 +61,6 @@ Right click the Project of Package Explorer
 -> move certain file(s) from unstaging to staging
 -> Insert Commit Message and Commit + Push (it requires Github login with same way of above)
 in STS
-
-2. config AWS Linux 2 Server to pull from above repository of github
-[config AWS from jdk to git](https://tigger.dev/entry/aws-git)
-
-* jdk has JRE that can make JAVA-APP work, with Git, it is component of CD
 
 # Utilization cases
 ## IaaS-Oriented
