@@ -28,7 +28,7 @@ powershell : Window 제공 Character User Interface 터미널(GUI의 대척점),
 
 * [참고링크](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=jwyoon25&logNo=221498209697)
 
-#### FTP, Git
+#### FTP and Git
 to be supplemented later
 
 # Utilization cases
