@@ -55,20 +55,12 @@ Right click the Project of Package Explorer
 -> perspective Git or Git Staging of STS
 -> move certain file(s) from unstaging to staging
 -> Insert Commit Message and Commit + Push (it requires Github login with same way of above)
+in STS
 
 2. config AWS Linux 2 Server to pull from above repository of github
 [config AWS from jdk to git](https://tigger.dev/entry/aws-git)
 
 * jdk has JRE that can make JAVA-APP work, with Git, it is component of CD
-
-##### the related
- File Transfer Protocol(FTP), FTP is protocol(or guideline) to support sending file
-
-Implementation method of FTP : [how to use Filezilla](https://luji.tistory.com/9)
-
-[SCP vs SFTP](https://parkadd.tistory.com/129)
-
-To be supplemented later.. 
 
 # Utilization cases
 ## IaaS-Oriented
@@ -88,6 +80,15 @@ to be supplemented later
 
 # Docker and Kubernetes
 to be supplemented later
+
+##### the related
+ File Transfer Protocol(FTP), FTP is protocol(or guideline) to support sending file
+
+Implementation method of FTP : [how to use Filezilla](https://luji.tistory.com/9)
+
+[SCP vs SFTP](https://parkadd.tistory.com/129)
+
+To be supplemented later.. 
 
 # Background
 [Server](https://github.com/devsacti/Server)
