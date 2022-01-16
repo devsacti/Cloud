@@ -17,10 +17,11 @@ powershell : Window 제공 Character User Interface 터미널(GUI의 대척점),
 [Accessing by powershell ssh](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)
 
 ### Firewall and Security Group of AWS
-Firewall : 웹 방화벽
-(To ME) 외부 ip에서 접근할 수 있는 포트 열기
 
+####Firewall(웹 방화벽)
+(To ME) client(외부 ip)에서 접근할 수 있는 통로(포트) 열기
 
+####Security Group of AWS
 to be supplemented later
 
 #### FTP, Git
