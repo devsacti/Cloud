@@ -29,13 +29,7 @@ powershell : Window 제공 Character User Interface 터미널(GUI의 대척점),
 * [To be supplemented : what is Security Group](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=jwyoon25&logNo=221498209697)
 
 ##### basic port
-80 : http
-
-443 : https
-
--
-
-22 : ssh
+80 : http , 443 : https, 22 : ssh
 
 ### Continuous Integration and Continuous Delivery(CI/CD)
 (To ME)the sustainable and accessible platform where multiple developers can collarborate conveniently
