@@ -1,5 +1,16 @@
-# Cloud-Utilizations
-(To Me) Running AWS Cloud server instance for Web Service
+# Cloud Server and Extensions
+(TO ME) Running AWS Cloud server instance for Web Service
+
+## Kinds of Cloud server
+(TO ME) Iaas-oriented, Paas-oriented, Saas-oriented
+
+[redhat : kinds of Cloud](https://www.redhat.com/ko/topics/cloud-computing/iaas-vs-paas-vs-saas)
+
+I think this categorization is becoming more ambiguous because individual field expand
+
+at the same time, I think Iaas-oriented, Paas-oriented, Saas-oriented are still plausible.
+
+so i will try to use those.
 
 # Utilization cases
 ## Impl of Continuous Integration and Continuous Delivery(CI/CD)
