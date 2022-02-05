@@ -3,7 +3,7 @@
 
 # Utilization cases
 ## Impl of Continuous Integration and Continuous Delivery(CI/CD)
-[Impl CI/CD with EC2, STS with Github](https://github.com/devsacti/Cloud-Utilizations/tree/main/Impl%20CICD)
+[Impl CI/CD with EC2, STS and Github](https://github.com/devsacti/Cloud-Utilizations/tree/main/Impl%20CICD)
 
 [DEVOPS](https://github.com/devsacti/Cloud-Utilizations/tree/main/DEVOPS)
 
