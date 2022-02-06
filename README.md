@@ -1,5 +1,4 @@
 # Cloud Server and Extensions
-(TO ME) Running AWS Cloud server instance for Web Service
 
 ## Kinds of Cloud server
 (TO ME) Iaas-oriented, Paas-oriented, Saas-oriented
@@ -12,17 +11,41 @@ at the same time, I think Iaas-oriented, Paas-oriented, Saas-oriented are still 
 
 so i will try to use those.
 
-# Utilization cases
-## Impl of Continuous Integration and Continuous Delivery(CI/CD)
+## AWS : Amazon Web Services
+
+ AWS is cloud platform that provides generally virtualized resources like Cloud  Server, Database, Security, Network ip, ...
+
+those resources are the source of development of web-app, comercial services
+ 
+As long as free, it is my default dev environment
+
+by the way, i think, virtualizing is transformation from original physical unit to Logical unit.
+
+#### Intro
+[Access to Cloud Server]()
+
+[Access to RDS]()
+
+[Security and Firewall]()
+
+[Managing AWS accounts for collaborative dev : IAM]()
+
+[Origin layer of Web service : Networking]()
+
+## Extensions
+
+#### Impl of Continuous Integration and Continuous Delivery(CI/CD)
 [Impl CI/CD with EC2, STS and Github](https://github.com/devsacti/Cloud-Utilizations/tree/main/Impl%20CICD)
 
 [DEVOPS](https://github.com/devsacti/Cloud-Utilizations/tree/main/DEVOPS)
 
-## Database Service
+#### RDS
 [AWS RDS](https://github.com/devsacti/Cloud-Utilizations/tree/main/Database%20Service)
 
-## the related
-Firewall of AWS => to be supplemented..
+#### Kubernetes : AWS EKS
+to be supplemented..
 
 # Background
+[Linux](https://github.com/devsacti/Server/tree/main/Linux)
+
 [Server](https://github.com/devsacti/Server)
