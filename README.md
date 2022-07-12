@@ -5,33 +5,32 @@
 
 [redhat : kinds of Cloud](https://www.redhat.com/ko/topics/cloud-computing/iaas-vs-paas-vs-saas)
 
-I think this categorization is becoming more ambiguous because individual field expand
+I think this categorization is becoming more ambiguous because individaul case expands
 
-at the same time, I think Iaas-oriented, Paas-oriented, Saas-oriented are still plausible.
+But, I think, Iaas-oriented, Paas-oriented, Saas-oriented are still plausible yet.
 
-so i will try to use those.
+So, I will try to use this classification.
 
-## AWS : Amazon Web Services
-(TO ME) As long as free, it is my default dev environment
+## CSP : Cloud Service Provider
+ AWS(Amazon Web Service), Oracle, Azure, GCP(Google Cloud Platform) are the CSP
 
- AWS is cloud platform that provides generally virtualized resources
+ CSP provides generally virtualized resources like Cloud Server, Database Server, Security, Network ip, ...
 
-like Cloud  Server, Database, Security, Network ip, ...
-
-those resources are the source of development of web-app, comercial services
+ those resources are the source of development of web-app, comercial services
  
 #### Virtualized resources
-i think, virtualizing is transformation from original physical unit to Logical unit.
+(TO ME) Transformed Resources from original physical unit to Logical unit.
 
 [Cloud Server : How to Access and config]()
 
-[Database]()
+[Database Server]()
 
 [Security]()
 
 [Networking]()
 
 [Identity and Access Management : IAM]()
+
 
 ## Extensions
 
@@ -47,6 +46,9 @@ i think, virtualizing is transformation from original physical unit to Logical u
 to be supplemented..
 
 # Background
+[Server](https://github.com/devsacti/Server)
+
 [Linux](https://github.com/devsacti/Server/tree/main/Linux)
 
-[Server](https://github.com/devsacti/Server)
+# References
+1. CSP - https://blog.lgcns.com/2204
