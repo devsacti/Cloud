@@ -12,25 +12,26 @@ at the same time, I think Iaas-oriented, Paas-oriented, Saas-oriented are still 
 so i will try to use those.
 
 ## AWS : Amazon Web Services
+(TO ME) As long as free, it is my default dev environment
 
- AWS is cloud platform that provides generally virtualized resources like Cloud  Server, Database, Security, Network ip, ...
+ AWS is cloud platform that provides generally virtualized resources
+
+like Cloud  Server, Database, Security, Network ip, ...
 
 those resources are the source of development of web-app, comercial services
  
-As long as free, it is my default dev environment
+#### Virtualized resources
+i think, virtualizing is transformation from original physical unit to Logical unit.
 
-by the way, i think, virtualizing is transformation from original physical unit to Logical unit.
+[Cloud Server : How to Access and config]()
 
-#### Intro
-[Access to Cloud Server]()
+[Database]()
 
-[Access to RDS]()
+[Security]()
 
-[Security and Firewall]()
+[Networking]()
 
-[Managing AWS accounts for collaborative dev : IAM]()
-
-[Origin layer of Web service : Networking]()
+[Identity and Access Management : IAM]()
 
 ## Extensions
 

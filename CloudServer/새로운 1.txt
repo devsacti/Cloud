@@ -1,0 +1,99 @@
+https://hooks.slack.com/services/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
+
+https://hooks.slack.com/services/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
+
+curl -X POST --data-urlencode "payload={\"channel\": \"#project\", \"username\": \"webhookbot\", \"text\": \"이 항목은 #개의 project에 포스트되며 webhookbot이라는 봇에서 제공됩니다.\", \"icon_emoji\": \":ghost:\"}" https://hooks.slack.com/services/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
+
+// 실행권한 추가
+chmod +x ./kubectl
+
+//PATH가 설정된 디렉터리로 변경
+sudo mv ./kubectl /usr/local/kubectl
+
+//설치 확인
+kubectl version --client
+
+yum update -y
+
+// eksctl 설치 
+curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
+
+aws configure set region ap-northeast-2
+
+cd .ssh
+
+ssh-keygen
+
+// ! 4. eks cluster 와 workerNode 생성
+eksctl create cluster --name mission-cluster --version 1.19 --region ap-northeast-2 --nodegroup-name mission-wn --node-type t3.medium --nodes 1 --nodes-min 1 --nodes-max 1 --ssh-access --ssh-public-key workernode-key --managed
+
+kubectl get node
+
+// nginx-deployment
+kubectl apply -f nginx-deployment.yaml
+
+// 생성된 파드 확인
+kubectl get pod
+
+// nginx-service
+kubectl apply -f nginx-service.yaml
+
+// 생성된 파드 확인
+kubectl get service
+
+
+// 3주차 융합
+
+// ElasticSearch 배포
+kubectl apply -f elasticSearch.yaml
+
+// 배포된 pod 확인
+kubectl get pod | grep elastic
+
+// 배포된 서비스 확인
+kubectl get svc | grep elastic
+
+
+// kibana 배포
+kubectl apply -f kibana.yaml
+
+// 배포된 서비스 확인
+kubectl get service
+
+// fluentd 배포
+kubectl apply -f fluentd.yaml
+
+// 배포된 서비스 확인
+kubectl get pod -n kube-system | grep fluentd
+
+// elasticSearch 삭제
+kubectl delete -f elasticSearch.yaml
+
+// kibana  삭제
+kubectl delete -f kibana.yaml
+
+// fluentd 삭제
+kubectl delete -f fluentd.yaml
+ 
+// nginx service 삭제
+kubectl delete -f nginx-service.yaml
+
+////nginx deployment 삭제
+kubectl delete -f nginx-deployment.yaml
+
+//// EKS cluster와 Node Group 삭제
+eksctl delete cluster --region ap-northeast-2 --name=mission-cluster
+
+EKS Cluster 생성 및 Nginx 배포 확인자료
+
+kuberntes.labels.run is my-nginx
+
+## 4주차 
+
+aws kms create-key --region ap-northeast-2
+
+aws kms create-alias --alias-name alias/mission-kms-key --target-key-id 9ebf438a-8519-4eb9-a17a-78dad01d04d7 --region ap-northeast-2
+
+
+
+
