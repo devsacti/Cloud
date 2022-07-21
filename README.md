@@ -1,9 +1,9 @@
-# Cloud Server and Extensions
+# Cloud Server
 
 ## Kinds of Cloud server
 (TO ME) Iaas-oriented, Paas-oriented, Saas-oriented
 
-[redhat : kinds of Cloud](https://www.redhat.com/ko/topics/cloud-computing/iaas-vs-paas-vs-saas)
+[Redhat : kinds of Cloud](https://www.redhat.com/ko/topics/cloud-computing/iaas-vs-paas-vs-saas)
 
 I think this categorization is becoming more ambiguous because individaul case expands
 
@@ -21,9 +21,11 @@ So, I will try to use this classification.
 #### Virtualized resources
 (TO ME) Transformed Resources from original physical unit to Logical unit.
 
-[Cloud Server : How to Access and config]()
+[Cloud compute instance ; Iaas-oriented server]()
 
-[Database Server]()
+[Database Server ; Paas-oriented server]()
+
+[? ; Saas-oriented server]
 
 [Security]()
 
@@ -31,15 +33,18 @@ So, I will try to use this classification.
 
 [Identity and Access Management : IAM]()
 
+## Practices
 
-## Extensions
+#### Iaas-oriented
+[Impl REST API Server with Spring MVC Project]()
 
-#### Impl of Continuous Integration and Continuous Delivery(CI/CD)
-[Impl CI/CD with EC2, STS and Github](https://github.com/devsacti/Cloud-Utilizations/tree/main/Impl%20CICD)
+[Impl CI with EC2, STS and Github](https://github.com/devsacti/Cloud-Utilizations/tree/main/Impl%20CICD)
 
 [DEVOPS](https://github.com/devsacti/Cloud-Utilizations/tree/main/DEVOPS)
 
-#### RDS
+#### Paas-oriented
+[Oracle DB ; ATP]
+
 [AWS RDS](https://github.com/devsacti/Cloud-Utilizations/tree/main/Database%20Service)
 
 #### Kubernetes : AWS EKS
@@ -47,8 +52,6 @@ to be supplemented..
 
 # Background
 [Server](https://github.com/devsacti/Server)
-
-[Linux](https://github.com/devsacti/Server/tree/main/Linux)
 
 # References
 1. CSP - https://blog.lgcns.com/2204
