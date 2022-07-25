@@ -3,9 +3,9 @@
 ## Kinds of Cloud server
 (TO ME) Iaas-oriented, Paas-oriented, Saas-oriented
 
-[Redhat : kinds of Cloud](https://www.redhat.com/ko/topics/cloud-computing/iaas-vs-paas-vs-saas)
+[Redhat : kinds of Cloud ; IaaS, Pass, Saas](https://www.redhat.com/ko/topics/cloud-computing/iaas-vs-paas-vs-saas)
 
-I think this categorization is becoming more ambiguous because individaul case expands
+I think above categorization is becoming more ambiguous because individaul case expands their own function and field.
 
 But, I think, Iaas-oriented, Paas-oriented, Saas-oriented are still plausible yet.
 
@@ -14,29 +14,31 @@ So, I will try to use this classification.
 ## CSP : Cloud Service Provider
  AWS(Amazon Web Service), Oracle, Azure, GCP(Google Cloud Platform) are the CSP
 
- CSP provides generally virtualized resources like Cloud Server, Database Server, Security, Network ip, ...
+ CSP provides generally virtualized resources not only Cloud Server, but also Security, Network ip, ...
 
- those resources are the source of development of web-app, comercial services
+ those resources are requirement of development of web-app, comercial services
  
 #### Virtualized resources
-(TO ME) Transformed Resources from original physical unit to Logical unit.
+(TO ME) Transformed Resources from original Physical unit to Logical unit.
 
-[Cloud compute instance ; Iaas-oriented server]()
+server + server + server + ... = virtualized server * n ; n is flexible
 
-[Database Server ; Paas-oriented server]()
+[Cloud compute instance ; Iaas-oriented server]
+
+[Database Server ; Paas-oriented server]
 
 [? ; Saas-oriented server]
 
-[Security]()
+[Security]
 
-[Networking]()
+[Networking]
 
-[Identity and Access Management : IAM]()
+[Identity and Access Management : IAM]
 
 ## Practices
 
 #### Iaas-oriented
-[Impl REST API Server with Spring MVC Project]()
+[Impl REST API Server with Spring MVC Project]
 
 [Impl CI with EC2, STS and Github](https://github.com/devsacti/Cloud-Utilizations/tree/main/Impl%20CICD)
 
